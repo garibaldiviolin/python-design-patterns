@@ -2,7 +2,7 @@ from unittest.mock import Mock, patch
 
 import pytest
 
-from strategy.classes import Human
+from ..classes import Human
 
 
 def test_work():

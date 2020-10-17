@@ -2,7 +2,7 @@ from unittest.mock import patch
 
 import pytest
 
-from simple_factory.classes import AnimalFactory, Lion, Duck
+from ..classes import AnimalFactory, Lion, Duck
 
 
 @pytest.mark.parametrize("species,animal_class", [

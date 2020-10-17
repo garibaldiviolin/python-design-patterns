@@ -1,4 +1,4 @@
-from strategy.classes import Human, CodeDevelopment, CarMaintenance
+from ..classes import Human, CodeDevelopment, CarMaintenance
 
 import pytest
 

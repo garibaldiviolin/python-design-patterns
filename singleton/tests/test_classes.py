@@ -1,6 +1,6 @@
 import pytest
 
-from singleton.classes import Configuration
+from ..classes import Configuration
 
 
 def test_configuration_constructor():

@@ -1,4 +1,4 @@
-from simple_factory.classes import AnimalFactory
+from ..classes import AnimalFactory
 
 import pytest
 

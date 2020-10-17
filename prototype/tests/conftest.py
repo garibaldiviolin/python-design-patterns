@@ -1,4 +1,4 @@
-from prototype.classes import Sheep
+from ..classes import Sheep
 
 import pytest
 

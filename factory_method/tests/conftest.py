@@ -1,4 +1,4 @@
-from factory_method.classes import FedExFactory, DHLFactory, FedEx, DHL
+from ..classes import FedExFactory, DHLFactory, FedEx, DHL
 
 import pytest
 

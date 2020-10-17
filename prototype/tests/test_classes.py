@@ -1,6 +1,6 @@
 from unittest.mock import patch
 
-from prototype.classes import Sheep
+from ..classes import Sheep
 
 
 def test_sheep_clone(sheep2):
