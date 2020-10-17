@@ -28,13 +28,3 @@ def builder_mock(new_house):
 @pytest.fixture
 def foreman(builder):
     return Foreman(builder)
-
-
-@pytest.fixture
-def mansion(foreman):
-    return foreman.build_mansion()
-
-
-@pytest.fixture
-def small_house(foreman):
-    return foreman.build_small_house()
