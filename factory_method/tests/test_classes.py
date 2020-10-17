@@ -7,8 +7,6 @@ from ..classes import (
     FedEx,
     DHL,
     ShippingCompanyFactory,
-    FedExFactory,
-    DHLFactory,
 )
 
 
