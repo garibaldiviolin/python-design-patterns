@@ -8,19 +8,19 @@ class House:
 class HouseBuilder(ABC):
 
     @abstractmethod
-    def start_house(self):
+    def start_house(self):  # pragma: no cover
         pass
 
     @abstractmethod
-    def add_bathroom(self):
+    def add_bathroom(self):  # pragma: no cover
         pass
 
     @abstractmethod
-    def add_bedroom(self):
+    def add_bedroom(self):  # pragma: no cover
         pass
 
     @abstractmethod
-    def built_house(self):
+    def built_house(self):  # pragma: no cover
         pass
 
 

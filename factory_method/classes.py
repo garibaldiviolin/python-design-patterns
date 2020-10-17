@@ -4,7 +4,7 @@ from abc import ABC, abstractmethod
 class ShippingCompany(ABC):
 
     @abstractmethod
-    def deliver():
+    def deliver():  # pragma: no cover
         pass
 
 
@@ -26,7 +26,7 @@ class DHL(ShippingCompany):
 
 class ShippingCompanyFactory(ABC):
     @abstractmethod
-    def create():
+    def create():  # pragma: no cover
         pass
 
 
